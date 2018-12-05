@@ -1,0 +1,150 @@
+{
+	"player": {
+		"properties": {
+			"player": {
+				"properties": {
+					"dateOfBirth": {
+						"type" : "date",
+						"format" : "strict_date",				
+						"fields": {
+							"raw": {
+								"type": "string",
+								"index": "not_analyzed"
+							}
+						}
+					},
+					"firstGivenName": {
+						"type": "string"
+					},
+					"gender": {
+						"type": "string"
+					},
+					"heightCm": {
+						"type": "string"
+					},
+					"nationality": {
+						"type": "string"
+					},
+					"nickname": {
+						"type": "string"
+					},
+					"otherGivenName": {
+						"type": "string"
+					},
+					"playerId": {
+						"type": "string"
+					},
+					"sourceUpdate": {
+						"type": "date",
+						"format": "strict_date"
+					},
+					"surname": {
+						"type": "string"
+					},
+					"trophy": {
+						"properties": {
+							"trophyId": {
+								"type": "string"
+							},
+							"trophyShortCode": {
+								"type": "string"
+							},						
+							"trophyLeague": {
+								"type": "string"
+							},
+							"trophyDate": {
+								"type" : "date",
+								"format" : "strict_date"
+							}
+						}
+					},
+					"agent": {
+						"properties": {
+							"agentId": {
+								"type": "string"
+							},
+							"agentCode": {
+								"type": "string"
+							},						
+							"agentShortName": {
+								"type": "string"
+							}
+						}
+					}					
+				}
+			},
+			"teamCreatedDate": {
+				"type": "date",
+				"format": "strict_date"
+			},
+			"teamId": {
+				"type": "string"
+			},
+			"teamName": {
+				"type": "string"
+			},
+			"teamSynopsis": {
+				"properties": {
+					"dateOfBirth": {
+						"type" : "date",
+						"format" : "strict_date",
+						"fields": {
+							"raw": {
+								"type": "string",
+								"index": "not_analyzed"
+							}
+						}
+					},
+					"firstGivenName": {
+						"type": "string"
+					},
+					"nationality": {
+						"type": "string"
+					},
+					"numberPlayersInTeam": {
+						"type": "string"
+					},
+					"otherGivenName": {
+						"type": "string"
+					},
+					"recentSourceUpdateDatetime": {
+						"type": "string"
+					},
+					"surname": {
+						"type": "string"
+					},
+					"trophy": {
+						"properties": {
+							"trophyId": {
+								"type": "string"
+							},
+							"trophyShortCode": {
+								"type": "string"
+							},						
+							"trophyLeague": {
+								"type": "string"
+							},
+							"trophyDate": {
+							"type" : "date",
+							"format" : "strict_date"
+							}
+						}
+					},
+					"agent": {
+						"properties": {
+							"agentId": {
+								"type": "string"
+							},
+							"agentCode": {
+								"type": "string"
+							},						
+							"agentShortName": {
+								"type": "string"
+							}
+						}
+					}					
+				}
+			}
+		}
+	}
+}

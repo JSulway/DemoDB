@@ -1,0 +1,2 @@
+DROP TABLE "demoDB"."demo".PLANET
+DROP TABLE "demoDB"."demo".REFERENCE_DATA
